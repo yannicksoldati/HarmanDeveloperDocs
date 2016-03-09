@@ -18,13 +18,13 @@ Add the libHKWirelessHD.jar package and libHKWirelessHD.so library in your libs 
 
 - The step in Android Studio:
 
-1. Copy the HKWirelessHD.jar to app/libs folder and copy the libHKWirelessHD.so to app/src/man/jniLibs/armeabi folder. If the folders don't exist, please create them.
+1. Copy the HKWirelessHD.jar to app/libs folder and copy the libHKWirelessHD.so to app/src/main/jniLibs/armeabi folder. If the folders don't exist, please create them.
 
 The directory hierarchy as following:
 
 .. figure:: img/1.png
 
-2. Add the jar package as library. Select the menu: File->Project Structor->app(under Modules)->Dependencies, push +，then File dependency，select HKWirelessHD.jar. As following:
+2. Add the jar package as library. Select the menu: File->Project Structure->app(under Modules)->Dependencies, push +，then File dependency，select HKWirelessHD.jar. As following:
 
 .. figure:: img/8.png
 	:scale: 20
